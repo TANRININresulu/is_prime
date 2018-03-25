@@ -2,17 +2,17 @@
 
 int prime(int num)
 {
-	int counter=0;
+	int divider=0;
 
 	for(int i=1 ; i<=num ; i++)
 	{
 		if(num % i == 0)
 		{
-			counter++;
+			divider = divider + 1;
 		}
 	}
 
-	if(counter==2)
+	if(divider==2)
 	{
 		printf("%d ", num);
 		return 1;
