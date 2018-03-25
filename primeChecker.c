@@ -8,7 +8,7 @@ int prime(int num)
 	{
 		if(num % i == 0)
 		{
-			counter++;
+			counter = counter + 1;
 		}
 	}
 
