@@ -1,5 +1,5 @@
 # Basic Prime Checker Algorithm:
-
+```
 void prime( int num )
 {
 	int counter = 0;
