@@ -1,14 +1,13 @@
-# primeChecker
-Basic Prime Checker Algorithm:
+# Basic Prime Checker Algorithm:
 
 void prime( int num )
 {
-	int counter=0;
+	int counter = 0;
 
-	for( int i=1; i<=num; i++)
+	for( int i = 1; i <= num; ++i)
 	{
-		if( num % i == 0 )	counter++;
+		if( num % i == 0 ) counter++;
 	}
 
-	if( counter==2 )	printf("%d ", num);
+	if(counter == 2) printf("%d ", num);
 }
